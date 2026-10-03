@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صكوك البنيان | الشركة السعودية للمقاولات العامة والعقارات</title>
+    <meta
+      name="description"
+      content="صكوك البنيان للمقاولات العامة والعقارات تقدم خدمات عقارية ومقاولات واستشارات هندسية وتقارير مالية في المملكة العربية السعودية."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container header-row">
+        <div class="brand-group" aria-label="شعار الشركة">
+          <div class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 180 180" role="img" aria-label="شعار صكوك البنيان">
+              <path d="M20 103L72 51L126 98V144H88V118H60V144H20V103Z"/>
+              <path d="M60 58L110 58L138 92L110 92L60 58Z" opacity="0.55"/>
+              <path d="M92 90L144 90V146H92V90Z" opacity="0.9"/>
+              <path d="M70 51L20 103H70V144H56V82L70 51Z" opacity="0.35"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <div class="brand-title">صكوك البنيان</div>
+            <div class="brand-subtitle">المقاولات العامة والعقارات</div>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="القائمة الرئيسية">
+          <a href="#about">من نحن</a>
+          <a href="#services">الخدمات</a>
+          <a href="#projects">المشاريع</a>
+          <a href="#contact">تواصل</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">شركتنا في خدمة التطوير والإنجاز</span>
+            <h1>نحو بناء مستقبل أكثر قوة واحترافية</h1>
+            <p>
+              صكوك البنيان شركة سعودية رائدة في العقارات والمقاولات العامة، تقدم حلولاً متكاملة
+              تشمل العقارات، الأراضي، المشاريع السكنية، التشييد، الاستشارات الهندسية، والتقارير المالية
+              والأنظمة المحاسبية.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn primary" href="#contact">تواصل معنا</a>
+              <a class="btn secondary" href="#projects">استعرض مشاريعنا</a>
+            </div>
+
+            <div class="stats-row" aria-label="إحصائيات الشركة">
+              <div>
+                <strong>12+</strong>
+                <span>سنوات خبرة</span>
+              </div>
+              <div>
+                <strong>200+</strong>
+                <span>مشروع منجز</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>التزام بالجودة</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-scene">
+              <div class="glow"></div>
+              <div class="floating-chip chip-one">عقارات</div>
+              <div class="floating-chip chip-two">مقاولات</div>
+              <div class="building"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container split-grid">
+          <div class="section-head">
+            <span class="kicker">من نحن</span>
+            <h2>شركة متكاملة تعيد تعريف النجاح في العقارات والمقاولات</h2>
+          </div>
+
+          <div class="about-box">
+            <p>
+              تأسست <strong>صكوك البنيان</strong> لدعم نمو القطاعات العقارية والإنشائية في المملكة العربية السعودية.
+              نعمل على تنفيذ المشاريع بمهنية عالية، مع إدراك عميق لقيمة الوقت والموارد وتطلعات العملاء.
+            </p>
+            <p>
+              من بيع وشراء العقارات، إلى المشاريع السكنية، والتطوير العمراني، والإنشاءات العامة، نقدم منظومة
+              متكاملة من الخبرة والتخطيط والتنفيذ وتسليم المشاريع بجودة عالية ونتائج موثوقة.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="section-head centered">
+            <span class="kicker">خدماتنا</span>
+            <h2>حلول متكاملة في كل ما يتعلق بالعقارات والمقاولات</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="num">01</div>
+              <h3>العقارات</h3>
+              <p>بيع وشراء وتأجير الفلل، الدوبلكسات، والوحدات السكنية ذات المواقع المميزة.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="num">02</div>
+              <h3>الأراضي</h3>
+              <p>تقديم خيارات استثمارية في أراضٍ متميزة بأسعار مناسبة وموقع استراتيجي.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="num">03</div>
+              <h3>المقاولات العامة</h3>
+              <p>تنفيذ مشاريع إنشائية دقيقة وفق أعلى معايير الجودة والسلامة المهنية.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="num">04</div>
+              <h3>التصاميم الهندسية</h3>
+              <p>إعداد الرسومات الهندسية ومراجعتها لضمان التنفيذ الأمثل والالتزام بالمواصفات.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="num">05</div>
+              <h3>الاستشارات الهندسية</h3>
+              <p>إرشاد فني استراتيجي يساعد العملاء على اتخاذ أفضل قرارات التطوير والتشييد.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="num">06</div>
+              <h3>الأنظمة المحاسبية</h3>
+              <p>حلول محاسبية وتقارير مالية دقيقة تدعم القرار التجاري وتُحسن التحكم المالي.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <div class="section-head centered">
+            <span class="kicker">مشاريعنا</span>
+            <h2>أعمال متنوعة تعكس خبرتنا وكفاءتنا</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project project-large">
+              <div class="project-image project-one"></div>
+              <div class="project-copy">
+                <span>فلل فاخرة</span>
+                <h3>مشروع فلل سكنية متكاملة</h3>
+                <p>مشروع ينفذ وفق أعلى مستويات التصميم الداخلي والخارجي لتلبية طلبات العملاء.</p>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-image project-two"></div>
+              <div class="project-copy">
+                <span>مباني تجارية</span>
+                <h3>تطوير مبانٍ تجارية</h3>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-image project-three"></div>
+              <div class="project-copy">
+                <span>أراضي</span>
+                <h3>استثمار في الأراضي</h3>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-image project-four"></div>
+              <div class="project-copy">
+                <span>مقاولات</span>
+                <h3>مشاريع إنشائية متنوعة</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process">
+        <div class="container">
+          <div class="section-head centered">
+            <span class="kicker">طريقنا في التنفيذ</span>
+            <h2>خطواتنا تضمن نجاح المشروع من البداية إلى التسليم</h2>
+          </div>
+
+          <div class="process-grid">
+            <div class="step-item">
+              <span class="step-num">01</span>
+              <h3>التشخيص</h3>
+              <p>نحدد الاحتياج، تقييم المشروع، وتحديد أفضل المسار التنفيذ.</p>
+            </div>
+
+            <div class="step-item">
+              <span class="step-num">02</span>
+              <h3>التخطيط</h3>
+              <p>نعمل خطة تنفيذ واضحة ومحددة الزمن، مع استراتيجيات جودة ونفقات مناسبة.</p>
+            </div>
+
+            <div class="step-item">
+              <span class="step-num">03</span>
+              <h3>التنفيذ</h3>
+              <p>ننفذ المشاريع وفق المعايير الفنية والإنشائية المعتمدة بأسلوب منظم.</p>
+            </div>
+
+            <div class="step-item">
+              <span class="step-num">04</span>
+              <h3>التسليم</h3>
+              <p>نُسلّم المشروع بتركيز على الجودة، الموثوقية، والمتابعة بعد التنفيذ.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <span class="kicker">تواصل معنا</span>
+            <h2>لنبدأ مشروعك القادم بثقة واحترافية</h2>
+            <p>نحن نرحب بأي فرصة استثمارية أو مشروع تجاري أو سكني أو إنشائي، ونقف معك من البداية حتى التسليم.</p>
+
+            <ul class="contact-list">
+              <li><strong>العنوان:</strong> المملكة العربية السعودية - الجبيل البلد - شارع الملك عبدالله</li>
+              <li><strong>البريد الإلكتروني:</strong> Sukuk_albunian@outlook.com</li>
+              <li><strong>الهاتف:</strong> +966 54 490 0565</li>
+              <li><strong>الهاتف:</strong> +966 54 060 5391</li>
+            </ul>
+          </div>
+
+          <div class="contact-card">
+            <h3>احجز استشارتك الآن</h3>
+            <form>
+              <input type="text" placeholder="الاسم" aria-label="الاسم" />
+              <input type="email" placeholder="البريد الإلكتروني" aria-label="البريد الإلكتروني" />
+              <input type="tel" placeholder="رقم الهاتف" aria-label="رقم الهاتف" />
+              <textarea rows="4" placeholder="تفاصيل المشروع" aria-label="تفاصيل المشروع"></textarea>
+              <button type="submit">إرسال الطلب</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div class="footer-brand">
+          <div class="brand-mark small" aria-hidden="true">
+            <svg viewBox="0 0 180 180">
+              <path d="M20 103L72 51L126 98V144H88V118H60V144H20V103Z"/>
+              <path d="M60 58L110 58L138 92L110 92L60 58Z" opacity="0.55"/>
+              <path d="M92 90L144 90V146H92V90Z" opacity="0.9"/>
+            </svg>
+          </div>
+          <div>
+            <div class="brand-title small">صكوك البنيان</div>
+            <div class="brand-subtitle small">للمقاولات العامة والعقارات</div>
+          </div>
+        </div>
+
+        <p>© 2025 صكوك البنيان للمقاولات العامة والعقارات</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector("form");
+
+  if (!form) return;
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const button = form.querySelector("button");
+    const originalText = button.textContent;
+
+    button.disabled = true;
+    button.textContent = "تم إرسال الطلب";
+
+    setTimeout(() => {
+      button.disabled = false;
+      button.textContent = originalText;
+      form.reset();
+    }, 1800);
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
